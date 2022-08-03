@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @RequestMapping(value="/message")
 public interface MessageApi {
-
 	@RequestMapping(value = "/send-message",
 	        produces = { "application/json", "application/xml" }, 
 	        consumes = { "application/json", "application/xml" },
